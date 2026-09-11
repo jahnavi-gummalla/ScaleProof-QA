@@ -58,6 +58,10 @@ ScaleProof QA/
 ├── config/
 │   ├── load_profiles.py
 │   └── thresholds.py
+├── docs/
+│   └── images/
+│       ├── grafana-dashboard.png
+│       └── locust-load-report.png
 ├── monitoring/
 │   ├── prometheus.yml
 │   └── grafana/
@@ -76,6 +80,7 @@ ScaleProof QA/
 ├── tests/
 │   └── test_api.py
 ├── .dockerignore
+├── .env.example
 ├── .gitignore
 ├── compose.yaml
 ├── Dockerfile
@@ -97,8 +102,8 @@ ScaleProof QA/
 Clone the repository and enter the project directory:
 
 ```powershell
-git clone <repository-url>
-cd "ScaleProof QA"
+git clone https://github.com/jahnavi-gummalla/ScaleProof-QA.git
+cd ScaleProof-QA
 ```
 
 Create and activate a virtual environment:
@@ -216,12 +221,12 @@ Each run evaluates the configured performance thresholds and generates HTML and 
 ### Load Test
 
 - 50 concurrent users
-- 1,371 requests
+- 1,332 requests
 - 0 failures
-- 23.35 requests per second
-- 9.43 ms average response time
-- 20 ms P95 response time
-- 52 ms P99 response time
+- 22.99 requests per second
+- 10.14 ms average response time
+- 17 ms P95 response time
+- 32 ms P99 response time
 - Result: **PASS**
 
 ### Reliability Test
