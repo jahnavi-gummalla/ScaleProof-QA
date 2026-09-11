@@ -1,5 +1,7 @@
 # ScaleProof QA
 
+[![ScaleProof QA CI](https://github.com/jahnavi-gummalla/ScaleProof-QA/actions/workflows/ci.yml/badge.svg)](https://github.com/jahnavi-gummalla/ScaleProof-QA/actions/workflows/ci.yml)
+
 ScaleProof QA is an enterprise-style performance testing and reliability engineering platform built to validate API behavior under normal traffic, load, stress, spike, and controlled failure conditions.
 
 The project combines automated API testing, configurable Locust workloads, performance quality gates, reliability testing, Prometheus metrics, Grafana dashboards, Docker containerization, and GitHub Actions CI.
